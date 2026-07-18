@@ -4,7 +4,7 @@ const API_CONFIG = {
   },
 
   production: {
-    API_BASE_URL: "https://br30-foodos-backend.onrender.com/api",
+    API_BASE_URL: "https://br30-foodos-b.onrender.com/api",
   },
 };
 
