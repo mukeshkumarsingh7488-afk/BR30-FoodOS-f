@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://br-30-food-os-f.vercel.app/sitemap.xml
