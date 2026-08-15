@@ -205,8 +205,16 @@ export default function Register() {
                 ,{" "}
                 <Link to="/privacy" className="auth-link">
                   Privacy Policy
-                </Link>{" "}
-                &{" "}
+                </Link>
+                ,{" "}
+                <Link to="/refund" className="auth-link">
+                  Refund Policy
+                </Link>
+                ,{" "}
+                <Link to="/cookies" className="auth-link">
+                  Cookie Policy
+                </Link>
+                {" & "}
                 <Link to="/disclaimer" className="auth-link">
                   Disclaimer
                 </Link>
