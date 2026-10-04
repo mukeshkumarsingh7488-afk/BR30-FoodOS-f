@@ -1,7 +1,6 @@
 {
-  "name": "BR30 FoodOS | Restaurant Operating System",
+  "name": "BR30 FoodOS",
   "short_name": "BR30 FoodOS",
-  "description": "Cloud restaurant POS and management software for restaurants, cafes, bakeries, cloud kitchens and food businesses.",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -14,11 +13,7 @@
       "type": "image/png"
     }
   ],
-  "theme_color": "#05070A",
-  "background_color": "#05070A",
-  "display": "standalone",
-  "start_url": "/",
-  "scope": "/",
-  "lang": "en-IN",
-  "orientation": "portrait"
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone"
 }
