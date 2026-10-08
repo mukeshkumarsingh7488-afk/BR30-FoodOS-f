@@ -29,15 +29,7 @@ const sections = [
       },
       {
         type: "list",
-        items: [
-          "BR30 FoodOS website and landing pages.",
-          "Restaurant owner dashboard and business account areas.",
-          "Digital menu and QR ordering pages.",
-          "Kitchen display, counter billing and staff workflow screens.",
-          "Customer order placement and order status pages.",
-          "Support, demo, contact and enquiry forms.",
-          "Future mobile applications, APIs, integrations and related services.",
-        ],
+        items: ["BR30 FoodOS website and landing pages.", "Restaurant owner dashboard and business account areas.", "Digital menu and QR ordering pages.", "Kitchen display, counter billing and staff workflow screens.", "Customer order placement and order status pages.", "Support, demo, contact and enquiry forms.", "Future mobile applications, APIs, integrations and related services."],
       },
     ],
   },
@@ -51,15 +43,7 @@ const sections = [
       },
       {
         type: "list",
-        items: [
-          "Name, mobile number, email address and login details.",
-          "Restaurant or food business name, address, category and business profile.",
-          "Menu items, prices, images, descriptions, categories, offers and discounts.",
-          "Table numbers, QR codes, order details, order status and preparation time.",
-          "Staff account details, role permissions and activity logs.",
-          "Customer order details, feedback, reviews and communication preferences.",
-          "Technical information such as IP address, browser type, device type and usage logs.",
-        ],
+        items: ["Name, mobile number, email address and login details.", "Restaurant or food business name, address, category and business profile.", "Menu items, prices, images, descriptions, categories, offers and discounts.", "Table numbers, QR codes, order details, order status and preparation time.", "Staff account details, role permissions and activity logs.", "Customer order details, feedback, reviews and communication preferences.", "Technical information such as IP address, browser type, device type and usage logs."],
       },
       {
         type: "note",
@@ -77,14 +61,7 @@ const sections = [
       },
       {
         type: "list",
-        items: [
-          "Business name, outlet name and business type.",
-          "Business address, city, state and country.",
-          "Owner or authorized representative details.",
-          "Restaurant operating hours, table count and branch details.",
-          "Menu structure, item details, pricing, taxes and availability.",
-          "Business settings, staff permissions, notification preferences and platform configurations.",
-        ],
+        items: ["Business name, outlet name and business type.", "Business address, city, state and country.", "Owner or authorized representative details.", "Restaurant operating hours, table count and branch details.", "Menu structure, item details, pricing, taxes and availability.", "Business settings, staff permissions, notification preferences and platform configurations."],
       },
     ],
   },
@@ -98,13 +75,7 @@ const sections = [
       },
       {
         type: "list",
-        items: [
-          "Customer name and contact details when voluntarily provided.",
-          "Table number or order source such as dine-in, takeaway or counter.",
-          "Items ordered, order notes, quantity, price and order status.",
-          "Feedback, ratings, reviews or support messages.",
-          "Future loyalty, reward, coupon or CRM-related customer data if enabled by the business.",
-        ],
+        items: ["Customer name and contact details when voluntarily provided.", "Table number or order source such as dine-in, takeaway or counter.", "Items ordered, order notes, quantity, price and order status.", "Feedback, ratings, reviews or support messages.", "Future loyalty, reward, coupon or CRM-related customer data if enabled by the business."],
       },
       {
         type: "note",
@@ -122,17 +93,7 @@ const sections = [
       },
       {
         type: "list",
-        items: [
-          "Create and manage restaurant accounts.",
-          "Process QR code orders and billing workflows.",
-          "Manage menus, pricing and inventory records.",
-          "Operate kitchen display systems and staff workflows.",
-          "Generate business analytics and performance reports.",
-          "Improve platform performance and customer experience.",
-          "Provide technical support and respond to enquiries.",
-          "Detect fraud, abuse, suspicious activities and security threats.",
-          "Comply with applicable laws and legal obligations.",
-        ],
+        items: ["Create and manage restaurant accounts.", "Process QR code orders and billing workflows.", "Manage menus, pricing and inventory records.", "Operate kitchen display systems and staff workflows.", "Generate business analytics and performance reports.", "Improve platform performance and customer experience.", "Provide technical support and respond to enquiries.", "Detect fraud, abuse, suspicious activities and security threats.", "Comply with applicable laws and legal obligations."],
       },
     ],
   },
@@ -178,15 +139,7 @@ const sections = [
       },
       {
         type: "list",
-        items: [
-          "Encrypted communication using HTTPS.",
-          "Secure authentication mechanisms.",
-          "Role-based user access controls.",
-          "Server-side validation and monitoring.",
-          "Regular security updates and maintenance.",
-          "Access logging for administrative actions.",
-          "Backup and disaster recovery procedures.",
-        ],
+        items: ["Encrypted communication using HTTPS.", "Secure authentication mechanisms.", "Role-based user access controls.", "Server-side validation and monitoring.", "Regular security updates and maintenance.", "Access logging for administrative actions.", "Backup and disaster recovery procedures."],
       },
       {
         type: "note",
@@ -236,14 +189,7 @@ const sections = [
       },
       {
         type: "list",
-        items: [
-          "Request access to personal information.",
-          "Request correction of inaccurate information.",
-          "Request deletion where legally permitted.",
-          "Request restriction of processing in certain situations.",
-          "Withdraw consent where processing is based on consent.",
-          "Contact BR30 FoodOS regarding privacy-related concerns.",
-        ],
+        items: ["Request access to personal information.", "Request correction of inaccurate information.", "Request deletion where legally permitted.", "Request restriction of processing in certain situations.", "Withdraw consent where processing is based on consent.", "Contact BR30 FoodOS regarding privacy-related concerns."],
       },
     ],
   },
@@ -289,7 +235,7 @@ const sections = [
       },
       {
         type: "list",
-        items: ["Organization: BR30 Group", "Platform: BR30 FoodOS", "Email: support.br30trader@gmail.com", "Website: https://br30group.com (Coming Soon)", "Support: Available through official support channels."],
+        items: ["Organization: BR30 Group", "Platform: BR30 FoodOS", "Support: Submit a Support Request", "Website: https://br30group.com (Coming Soon)", "Support Team: Official BR30 FoodOS Support Team"],
       },
       {
         type: "note",
@@ -300,15 +246,5 @@ const sections = [
 ];
 
 export default function PrivacyPolicy() {
-  return (
-    <LegalLayout
-      title="Privacy Policy"
-      subtitle="This Privacy Policy explains how BR30 FoodOS collects, uses, stores, protects and manages information relating to restaurant businesses, staff members, customers and visitors while using our platform and services."
-      lastUpdated="July 05, 2026"
-      version="Version 1.0"
-      readTime="12 min read"
-      effectiveDate="July 05, 2026"
-      sections={sections}
-    />
-  );
+  return <LegalLayout title="Privacy Policy" subtitle="This Privacy Policy explains how BR30 FoodOS collects, uses, stores, protects and manages information relating to restaurant businesses, staff members, customers and visitors while using our platform and services." lastUpdated="July 05, 2026" version="Version 1.0" readTime="12 min read" effectiveDate="July 05, 2026" sections={sections} />;
 }

@@ -191,7 +191,7 @@ const sections = [
       },
       {
         type: "list",
-        items: ["Organization: BR30 Group", "Platform: BR30 FoodOS", "Email: support.br30trader@gmail.com", "Website: https://br30group.com (Coming Soon)", "Support Hours: Official Business Support Channels"],
+        items: ["Organization: BR30 Group", "Platform: BR30 FoodOS", "Support: Submit a Support Request", "Website: https://br30group.com (Coming Soon)", "Support: Available through the official support request system"],
       },
       {
         type: "note",
@@ -202,15 +202,5 @@ const sections = [
 ];
 
 export default function RefundPolicy() {
-  return (
-    <LegalLayout
-      title="Refund Policy"
-      subtitle="This Refund Policy explains how subscription payments, cancellations and eligible refund requests are handled for BR30 FoodOS and its related services."
-      lastUpdated="July 05, 2026"
-      version="Version 1.0"
-      readTime="8 min read"
-      effectiveDate="July 05, 2026"
-      sections={sections}
-    />
-  );
+  return <LegalLayout title="Refund Policy" subtitle="This Refund Policy explains how subscription payments, cancellations and eligible refund requests are handled for BR30 FoodOS and its related services." lastUpdated="July 05, 2026" version="Version 1.0" readTime="8 min read" effectiveDate="July 05, 2026" sections={sections} />;
 }

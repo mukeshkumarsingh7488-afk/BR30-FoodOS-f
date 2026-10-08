@@ -165,7 +165,7 @@ const sections = [
       },
       {
         type: "list",
-        items: ["Organization: BR30 Group", "Platform: BR30 FoodOS", "Email: support.br30trader@gmail.com", "Website: https://br30group.com (Coming Soon)", "Support: Official BR30 FoodOS Support Team"],
+        items: ["Organization: BR30 Group", "Platform: BR30 FoodOS", "Support: Submit a Support Request", "Website: https://br30group.com (Coming Soon)", "Support Team: Official BR30 FoodOS Support Team"],
       },
       {
         type: "note",
@@ -176,15 +176,5 @@ const sections = [
 ];
 
 export default function CookiePolicy() {
-  return (
-    <LegalLayout
-      title="Cookie Policy"
-      subtitle="This Cookie Policy explains how BR30 FoodOS uses cookies and similar technologies to improve security, performance and user experience across our platform."
-      lastUpdated="July 05, 2026"
-      version="Version 1.0"
-      readTime="7 min read"
-      effectiveDate="July 05, 2026"
-      sections={sections}
-    />
-  );
+  return <LegalLayout title="Cookie Policy" subtitle="This Cookie Policy explains how BR30 FoodOS uses cookies and similar technologies to improve security, performance and user experience across our platform." lastUpdated="July 05, 2026" version="Version 1.0" readTime="7 min read" effectiveDate="July 05, 2026" sections={sections} />;
 }

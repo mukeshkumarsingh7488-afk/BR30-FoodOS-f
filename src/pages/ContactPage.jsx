@@ -5,25 +5,25 @@ import Footer from "../components/landing/Footer";
 
 const contactCards = [
   {
-    title: "Email Support",
-    text: "For legal, support, demo and business enquiries.",
-    value: "support.br30trader@gmail.com",
+    title: "Support & Service Request",
+    text: "For support, service, demo and business enquiries.",
+    value: "Submit a Support Request",
     icon: Mail,
-    href: "https://mail.google.com/mail/?view=cm&fs=1&to=support.br30trader@gmail.com&su=BR30%20FoodOS%20Contact%20Request&body=Hello%20BR30%20FoodOS%20Team,%0A%0AI%20want%20to%20contact%20you%20regarding%3A%20%0A%0AName%3A%20%0ABusiness%20Name%3A%20%0ACity%3A%20%0APhone%3A%20%0A%0AMessage%3A%20%0A%0AThank%20you.",
+    href: "https://br30crm-com-f.vercel.app/public/forms/6ac4a4ce8ab8658ebe3748f7/br30-food-os-support-request?utm_source=br30-food-os-web&utm_medium=website&lead_source=br30-food-os-web&form_id=6ac7576b6780cbc6335f9c12&source_id=6ac757906780cbc6335f9c1b",
   },
   {
-    title: "WhatsApp",
-    text: "Quick demo, business discussion and onboarding support.",
-    value: "Chat on WhatsApp",
+    title: "Support & Service",
+    text: "Support, demo, business discussion and onboarding requests.",
+    value: "Submit a Support Request",
     icon: MessageCircle,
-    href: "https://wa.me/91622986380?text=Hello%20BR30%20FoodOS%20Team,%20I%20want%20to%20know%20more%20about%20BR30%20FoodOS.",
+    href: "https://br30crm-com-f.vercel.app/public/forms/6ac4a4ce8ab8658ebe3748f7/br30-food-os-support-request?utm_source=br30-food-os-web&utm_medium=website&lead_source=br30-food-os-web&form_id=6ac7576b6780cbc6335f9c12&source_id=6ac757906780cbc6335f9c1b",
   },
   {
     title: "Demo Booking",
     text: "Book a product walkthrough for your restaurant or food business.",
     value: "Request Demo",
     icon: Send,
-    href: "https://mail.google.com/mail/?view=cm&fs=1&to=support.br30trader@gmail.com&su=BR30%20FoodOS%20Demo%20Request&body=Hello%20BR30%20FoodOS%20Team,%0A%0AI%20want%20to%20book%20a%20demo%20for%20my%20food%20business.%0A%0AName%3A%20%0ABusiness%20Name%3A%20%0ABusiness%20Type%3A%20%0ACity%3A%20%0APhone%3A%20%0APreferred%20Demo%20Time%3A%20%0A%0AThank%20you.",
+    href: "https://br30crm-com-f.vercel.app/public/forms/6ac4a4ce8ab8658ebe3748f7/br30-food-os-support-request?utm_source=br30-food-os-web&utm_medium=website&lead_source=br30-food-os-web&form_id=6ac7576b6780cbc6335f9c12&source_id=6ac757906780cbc6335f9c1b",
   },
   {
     title: "Business Location",

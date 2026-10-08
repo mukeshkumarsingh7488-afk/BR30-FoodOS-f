@@ -27,23 +27,7 @@ export default function FinalCTA() {
                 <ArrowRight size={18} />
               </Link>
 
-              <a
-                className="secondary-btn"
-                target="_blank"
-                rel="noopener noreferrer"
-                href={`https://mail.google.com/mail/?view=cm&fs=1&to=support.br30trader@gmail.com&su=${encodeURIComponent("BR30 FoodOS Sales Enquiry")}&body=${encodeURIComponent(`Hello BR30 FoodOS Team,
-
-                I would like to know more about BR30 FoodOS.
-
-                Business Name:
-                Business Type:
-                City:
-                Phone Number:
-
-                Please contact me regarding pricing, demo and onboarding.
-
-                Thank you.`)}`}
-              >
+              <a className="secondary-btn" target="_blank" rel="noopener noreferrer" href="https://br30crm-com-f.vercel.app/public/forms/6ac4a4ce8ab8658ebe3748f7/br30-food-os-support-request?utm_source=br30-food-os-web&utm_medium=website&lead_source=br30-food-os-web&form_id=6ac7576b6780cbc6335f9c12&source_id=6ac757906780cbc6335f9c1b">
                 Contact Sales
               </a>
             </div>

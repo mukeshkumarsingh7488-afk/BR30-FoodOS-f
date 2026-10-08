@@ -68,21 +68,7 @@ const sections = [
       },
       {
         type: "list",
-        items: [
-          "Digital Menu Management",
-          "QR Ordering",
-          "Kitchen Display System",
-          "Restaurant Billing",
-          "Customer Management (CRM)",
-          "Restaurant Analytics",
-          "Business Reports",
-          "Inventory Management",
-          "Employee Management",
-          "Multi-Branch Management",
-          "Marketing & Promotions",
-          "AI Automation",
-          "Integrations with supported services",
-        ],
+        items: ["Digital Menu Management", "QR Ordering", "Kitchen Display System", "Restaurant Billing", "Customer Management (CRM)", "Restaurant Analytics", "Business Reports", "Inventory Management", "Employee Management", "Multi-Branch Management", "Marketing & Promotions", "AI Automation", "Integrations with supported services"],
       },
     ],
   },
@@ -97,15 +83,7 @@ const sections = [
       },
       {
         type: "list",
-        items: [
-          "Do not misuse the platform.",
-          "Do not attempt unauthorized access.",
-          "Do not interfere with servers or infrastructure.",
-          "Do not upload malicious software or harmful code.",
-          "Do not impersonate another business or individual.",
-          "Do not use BR30 FoodOS for illegal activities.",
-          "Do not attempt reverse engineering or source code extraction.",
-        ],
+        items: ["Do not misuse the platform.", "Do not attempt unauthorized access.", "Do not interfere with servers or infrastructure.", "Do not upload malicious software or harmful code.", "Do not impersonate another business or individual.", "Do not use BR30 FoodOS for illegal activities.", "Do not attempt reverse engineering or source code extraction."],
       },
       {
         type: "note",
@@ -142,13 +120,7 @@ const sections = [
       },
       {
         type: "list",
-        items: [
-          "Free trial duration may be 14 days unless otherwise stated.",
-          "Trial access may include selected or full platform features.",
-          "BR30 Group may modify, extend, restrict or discontinue trial access at its discretion.",
-          "After the trial ends, access may be restricted until a paid plan is activated.",
-          "Trial misuse, duplicate accounts or fraudulent registrations may lead to account suspension.",
-        ],
+        items: ["Free trial duration may be 14 days unless otherwise stated.", "Trial access may include selected or full platform features.", "BR30 Group may modify, extend, restrict or discontinue trial access at its discretion.", "After the trial ends, access may be restricted until a paid plan is activated.", "Trial misuse, duplicate accounts or fraudulent registrations may lead to account suspension."],
       },
     ],
   },
@@ -163,14 +135,7 @@ const sections = [
       },
       {
         type: "list",
-        items: [
-          "Maintain accurate menu item names, prices and descriptions.",
-          "Update item availability, offers and discounts responsibly.",
-          "Ensure food quality, hygiene, preparation and delivery standards.",
-          "Comply with applicable food safety, tax, consumer protection and business laws.",
-          "Handle customer complaints, refunds and service issues relating to the restaurant’s own operations.",
-          "Ensure staff members use assigned accounts responsibly.",
-        ],
+        items: ["Maintain accurate menu item names, prices and descriptions.", "Update item availability, offers and discounts responsibly.", "Ensure food quality, hygiene, preparation and delivery standards.", "Comply with applicable food safety, tax, consumer protection and business laws.", "Handle customer complaints, refunds and service issues relating to the restaurant’s own operations.", "Ensure staff members use assigned accounts responsibly."],
       },
       {
         type: "note",
@@ -227,13 +192,7 @@ const sections = [
       },
       {
         type: "list",
-        items: [
-          "Users may not copy, resell or redistribute BR30 FoodOS software.",
-          "Users may not reverse engineer or attempt to extract source code.",
-          "Users may not reproduce BR30 branding without permission.",
-          "Users may not create derivative products based on BR30 FoodOS without written consent.",
-          "Restaurant owners retain ownership of their own menu content, business data, images and customer records subject to these Terms.",
-        ],
+        items: ["Users may not copy, resell or redistribute BR30 FoodOS software.", "Users may not reverse engineer or attempt to extract source code.", "Users may not reproduce BR30 branding without permission.", "Users may not create derivative products based on BR30 FoodOS without written consent.", "Restaurant owners retain ownership of their own menu content, business data, images and customer records subject to these Terms."],
       },
     ],
   },
@@ -266,15 +225,7 @@ const sections = [
       },
       {
         type: "list",
-        items: [
-          "Internet connectivity issues.",
-          "Third-party payment gateway failures.",
-          "Cloud infrastructure outages.",
-          "Customer disputes between restaurants and customers.",
-          "Loss of business opportunities.",
-          "Loss resulting from incorrect business configurations.",
-          "Indirect, incidental or consequential damages to the maximum extent permitted by law.",
-        ],
+        items: ["Internet connectivity issues.", "Third-party payment gateway failures.", "Cloud infrastructure outages.", "Customer disputes between restaurants and customers.", "Loss of business opportunities.", "Loss resulting from incorrect business configurations.", "Indirect, incidental or consequential damages to the maximum extent permitted by law."],
       },
     ],
   },
@@ -353,7 +304,7 @@ const sections = [
       },
       {
         type: "list",
-        items: ["Organization: BR30 Group", "Platform: BR30 FoodOS", "Email: support.br30trader@gmail.com", "Website: https://br30group.com (Coming Soon)", "Support: Official BR30 FoodOS Support Team"],
+        items: ["Organization: BR30 Group", "Platform: BR30 FoodOS", "Support: Submit a Support Request", "Website: https://br30group.com (Coming Soon)", "Support Team: Official BR30 FoodOS Support Team"],
       },
       {
         type: "note",
@@ -364,15 +315,5 @@ const sections = [
 ];
 
 export default function TermsConditions() {
-  return (
-    <LegalLayout
-      title="Terms & Conditions"
-      subtitle="These Terms and Conditions govern your access to and use of BR30 FoodOS. By creating an account or using our platform, you agree to comply with these Terms."
-      lastUpdated="July 05, 2026"
-      version="Version 1.0"
-      readTime="15 min read"
-      effectiveDate="July 05, 2026"
-      sections={sections}
-    />
-  );
+  return <LegalLayout title="Terms & Conditions" subtitle="These Terms and Conditions govern your access to and use of BR30 FoodOS. By creating an account or using our platform, you agree to comply with these Terms." lastUpdated="July 05, 2026" version="Version 1.0" readTime="15 min read" effectiveDate="July 05, 2026" sections={sections} />;
 }

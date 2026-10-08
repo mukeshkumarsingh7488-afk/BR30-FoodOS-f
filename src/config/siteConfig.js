@@ -57,9 +57,7 @@ export const SITE_CONFIG = {
   // ==========================================
 
   contact: {
-    email: "support@br30group.com",
-    phone: "+91 6200986380",
-    whatsapp: "+91 6200986380",
+    supportUrl: "https://br30crm-com-f.vercel.app/public/forms/6ac4a4ce8ab8658ebe3748f7/br30-food-os-support-request?utm_source=br30-food-os-web&utm_medium=website&lead_source=br30-food-os-web&form_id=6ac7576b6780cbc6335f9c12&source_id=6ac757906780cbc6335f9c1b",
   },
 
   // ==========================================

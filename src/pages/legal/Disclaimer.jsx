@@ -30,13 +30,7 @@ const sections = [
       },
       {
         type: "list",
-        items: [
-          "BR30 FoodOS does not own or operate restaurants listed on the platform.",
-          "BR30 FoodOS does not cook, package, deliver or serve food items.",
-          "BR30 FoodOS does not guarantee food taste, quality, hygiene or delivery timelines.",
-          "BR30 FoodOS does not verify every menu item, image, price or offer uploaded by a business.",
-          "BR30 FoodOS does not control how individual restaurants manage staff, customers or orders.",
-        ],
+        items: ["BR30 FoodOS does not own or operate restaurants listed on the platform.", "BR30 FoodOS does not cook, package, deliver or serve food items.", "BR30 FoodOS does not guarantee food taste, quality, hygiene or delivery timelines.", "BR30 FoodOS does not verify every menu item, image, price or offer uploaded by a business.", "BR30 FoodOS does not control how individual restaurants manage staff, customers or orders."],
       },
     ],
   },
@@ -51,14 +45,7 @@ const sections = [
       },
       {
         type: "list",
-        items: [
-          "Menu item names, descriptions and images.",
-          "Food preparation, hygiene and safety.",
-          "Order acceptance, cancellation and preparation time.",
-          "Customer complaints and service disputes.",
-          "Tax, GST and invoice accuracy.",
-          "Applicable food license, business registration and regulatory compliance.",
-        ],
+        items: ["Menu item names, descriptions and images.", "Food preparation, hygiene and safety.", "Order acceptance, cancellation and preparation time.", "Customer complaints and service disputes.", "Tax, GST and invoice accuracy.", "Applicable food license, business registration and regulatory compliance."],
       },
       {
         type: "note",
@@ -92,13 +79,7 @@ const sections = [
       },
       {
         type: "list",
-        items: [
-          "AI outputs may not always be accurate or complete.",
-          "AI suggestions should be reviewed before business use.",
-          "AI forecasts are estimates and not guaranteed results.",
-          "Users should not rely solely on AI for legal, financial, tax or food safety decisions.",
-          "BR30 Group may improve, modify or remove AI features over time.",
-        ],
+        items: ["AI outputs may not always be accurate or complete.", "AI suggestions should be reviewed before business use.", "AI forecasts are estimates and not guaranteed results.", "Users should not rely solely on AI for legal, financial, tax or food safety decisions.", "BR30 Group may improve, modify or remove AI features over time."],
       },
       {
         type: "note",
@@ -150,15 +131,7 @@ const sections = [
       },
       {
         type: "list",
-        items: [
-          "Loss of profits or revenue.",
-          "Business interruption.",
-          "Loss of customer data due to user error.",
-          "Incorrect menu configuration.",
-          "Restaurant operational decisions.",
-          "Customer disputes between businesses and customers.",
-          "Losses resulting from third-party systems or integrations.",
-        ],
+        items: ["Loss of profits or revenue.", "Business interruption.", "Loss of customer data due to user error.", "Incorrect menu configuration.", "Restaurant operational decisions.", "Customer disputes between businesses and customers.", "Losses resulting from third-party systems or integrations."],
       },
       {
         type: "note",
@@ -207,7 +180,7 @@ const sections = [
       },
       {
         type: "list",
-        items: ["Organization: BR30 Group", "Platform: BR30 FoodOS", "Email: support.br30trader@gmail.com", "Website: https://br30group.com (Coming Soon)", "Support: Official BR30 FoodOS Support Team"],
+        items: ["Organization: BR30 Group", "Platform: BR30 FoodOS", "Support: Submit a Support Request", "Website: https://br30group.com (Coming Soon)", "Support Team: Official BR30 FoodOS Support Team"],
       },
       {
         type: "note",
@@ -218,15 +191,5 @@ const sections = [
 ];
 
 export default function Disclaimer() {
-  return (
-    <LegalLayout
-      title="Disclaimer"
-      subtitle="This Disclaimer explains the limitations of liability, platform responsibilities and important legal notices relating to the use of BR30 FoodOS and its services."
-      lastUpdated="July 05, 2026"
-      version="Version 1.0"
-      readTime="9 min read"
-      effectiveDate="July 05, 2026"
-      sections={sections}
-    />
-  );
+  return <LegalLayout title="Disclaimer" subtitle="This Disclaimer explains the limitations of liability, platform responsibilities and important legal notices relating to the use of BR30 FoodOS and its services." lastUpdated="July 05, 2026" version="Version 1.0" readTime="9 min read" effectiveDate="July 05, 2026" sections={sections} />;
 }

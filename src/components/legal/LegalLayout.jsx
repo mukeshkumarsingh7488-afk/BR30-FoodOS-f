@@ -103,11 +103,8 @@ export default function LegalLayout({ title, subtitle, lastUpdated = "July 05, 2
 
                 <p>For questions about BR30 FoodOS legal policies, data handling, refunds, cookies or account terms, contact the BR30 FoodOS team.</p>
 
-                <a
-                  href="https://mail.google.com/mail/?view=cm&fs=1&to=support.br30trader@gmail.com&su=BR30%20FoodOS%20Policy%20Support%20Request&body=Hello%20BR30%20FoodOS%20Support%20Team,%0A%0AI%20have%20a%20question%20regarding%20your%20legal%20policies.%0A%0APolicy%20Name%3A%20%0A%0AQuestion%3A%20%0A%0AName%3A%20%0ABusiness%20Name%3A%20%0ARegistered%20Email%3A%20%0A%0AThank%20you."
-                  target="_blank"
-                  rel="noopener noreferrer">
-                  support.br30trader@gmail.com
+                <a href="https://br30crm-com-f.vercel.app/public/forms/6ac4a4ce8ab8658ebe3748f7/br30-food-os-support-request?utm_source=br30-food-os-web&utm_medium=website&lead_source=br30-food-os-web&form_id=6ac7576b6780cbc6335f9c12&source_id=6ac757906780cbc6335f9c1b" target="_blank" rel="noopener noreferrer">
+                  Submit a Support Request
                 </a>
               </div>
             </div>
